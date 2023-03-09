@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/VladYevtushenko/aurora-erp-project.git"
   },
-  "homepage": "https://github.com/VladYevtushenko/aurora-erp-project#readme",
+  "homepage": "https://github.com/VladYevtushenko/aurora-erp-project/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,6 +19,7 @@
     "clear-all": "rm -rf build node_modules",
     "re-start": "rm -rf build node_modules && yarn install && yarn start",
     "re-build": "rm -rf build node_modules && yarn install && yarn build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
