@@ -4,6 +4,11 @@
   "licence": "MIT",
   "version": "1.7.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladYevtushenko/aurora-erp-project.git"
+  },
+  "homepage": "https://github.com/VladYevtushenko/aurora-erp-project/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -13,7 +18,9 @@
     "lint:fix": "eslint --fix --ext .js,.jsx ./src",
     "clear-all": "rm -rf build node_modules",
     "re-start": "rm -rf build node_modules && yarn install && yarn start",
-    "re-build": "rm -rf build node_modules && yarn install && yarn build"
+    "re-build": "rm -rf build node_modules && yarn install && yarn build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -74,6 +81,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.4"
   },
   "overrides": {

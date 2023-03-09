@@ -38,7 +38,7 @@ export default function Page404() {
 
           <Box
             component="img"
-            src="/assets/illustrations/illustration_404.svg"
+            src="https://vladyevtushenko.github.io/aurora-erp-project/assets/illustrations/illustration_404.svg"
             sx={{ height: 260, mx: 'auto', my: { xs: 5, sm: 10 } }}
           />
 
