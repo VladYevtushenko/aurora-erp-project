@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/VladYevtushenko/aurora-erp-project/static/js/main.f884d962.js",
+    "main.js": "/VladYevtushenko/aurora-erp-project/static/js/main.b72d27f2.js",
     "static/js/496.c8bc0447.chunk.js": "/VladYevtushenko/aurora-erp-project/static/js/496.c8bc0447.chunk.js",
     "static/media/auroraLogo.png": "/VladYevtushenko/aurora-erp-project/static/media/auroraLogo.165605eb043da5c49d6b.png",
     "index.html": "/VladYevtushenko/aurora-erp-project/index.html",
-    "main.f884d962.js.map": "/VladYevtushenko/aurora-erp-project/static/js/main.f884d962.js.map",
+    "main.b72d27f2.js.map": "/VladYevtushenko/aurora-erp-project/static/js/main.b72d27f2.js.map",
     "496.c8bc0447.chunk.js.map": "/VladYevtushenko/aurora-erp-project/static/js/496.c8bc0447.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f884d962.js"
+    "static/js/main.b72d27f2.js"
   ]
 }
